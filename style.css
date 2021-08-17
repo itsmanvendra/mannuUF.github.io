@@ -1,0 +1,508 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./background1.png");
+  background-position: center;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  align-items: center;
+}
+
+.logo {
+  width: 160px;
+  cursor: pointer;
+}
+
+.cart {
+  width: 60px;
+  cursor: pointer;
+}
+
+.navbar {
+  padding-left: 140px;
+  flex: 1;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0px 20px;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: deepskyblue;
+}
+
+p {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: olive;
+}
+
+.content a {
+  display: inline-block;
+  background: linear-gradient(45deg, #87adfe, #ff77cd);
+  border-radius: 6px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+.icon {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 10%;
+}
+
+.icon img {
+  width: 40px;
+  margin-right: 25px;
+}
+
+.feature {
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 140px;
+}
+
+.social {
+  position: absolute;
+  bottom: 60px;
+  left: 40px;
+  font-size: 35px;
+}
+#home {
+  color: darkred;
+}
+#facebook {
+  color: blue;
+}
+
+#twitter {
+  color: rgb(60, 93, 236);
+}
+
+#insta {
+  color: darkgoldenrod;
+}
+
+.bag {
+  font-size: 15px;
+  color: black;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bag {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 2px;
+  color: rgb(25, 27, 27);
+}
+.emptybag {
+  position: absolute;
+  top: 28%;
+  left: 38%;
+}
+#centertext {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: dodgerblue;
+  text-decoration: underline;
+  margin: 8px;
+}
+#emptycart {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+.wishlist {
+  position: absolute;
+  top: 75%;
+  left: 43%;
+  width: 275px;
+  height: 30px;
+  border: 3px solid blue;
+  padding: 0 6px;
+  box-sizing: border-box;
+}
+.about {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 14%;
+  left: 11%;
+  border-radius: 50%;
+  background: rgba(0, 0, 255, 0.6);
+}
+.aboutus {
+  color: #fff;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  top: 36%;
+  left: 5.1%;
+}
+.aabout {
+  position: absolute;
+  top: 15%;
+  left: 10.5%;
+  text-decoration: underline;
+  color: #fff;
+  font-size: 5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.shirt {
+  width: 250px;
+  height: 300px;
+  background: lightblue;
+  position: absolute;
+  top: 14%;
+  left: 16%;
+  margin: 10px;
+  transition: background 4s 1s;
+}
+
+.shirt::before {
+  content: " ";
+  width: 200px;
+  height: 250px;
+  background: url("./shirt1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 4%;
+  left: 8%;
+  margin: 5px;
+}
+
+.shirt1 {
+  color: #111;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 90%;
+  left: 38%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shirt:hover {
+  background: red;
+}
+
+.tshirt {
+  width: 250px;
+  height: 300px;
+  background: lightblue;
+  position: absolute;
+  top: 14%;
+  left: 34%;
+  margin: 10px;
+  transition: background 4s 1s;
+}
+
+.tshirt::before {
+  content: " ";
+  width: 200px;
+  height: 250px;
+  background: url("./tshirt1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 4%;
+  left: 8%;
+  margin: 5px;
+}
+
+.tshirt1 {
+  color: #111;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 90%;
+  left: 34%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Jeans {
+  width: 250px;
+  height: 300px;
+  background: lightblue;
+  position: absolute;
+  top: 14%;
+  left: 52%;
+  margin: 10px;
+  transition: background 4s 1s;
+}
+
+.Jeans::before {
+  content: " ";
+  width: 200px;
+  height: 250px;
+  background: url("./jeans.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 4%;
+  left: 8%;
+  margin: 5px;
+}
+
+.Jeans1 {
+  color: #111;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 90%;
+  left: 36%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shoes {
+  width: 250px;
+  height: 300px;
+  background: lightblue;
+  position: absolute;
+  top: 14%;
+  left: 70%;
+  margin: 10px;
+  transition: background 4s 1s;
+}
+
+.shoes::before {
+  content: " ";
+  width: 200px;
+  height: 250px;
+  background: url("./shoes.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 4%;
+  left: 8%;
+  margin: 5px;
+}
+
+.shoes1 {
+  color: #111;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 90%;
+  left: 38%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.traditional {
+  width: 250px;
+  height: 300px;
+  background: lightblue;
+  position: absolute;
+  top: 56%;
+  left: 16%;
+  margin: 10px;
+  transition: background 4s 1s;
+}
+
+.traditional::before {
+  content: " ";
+  width: 200px;
+  height: 250px;
+  background: url("./traditional.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 4%;
+  left: 8%;
+  margin: 5px;
+}
+
+.traditional1 {
+  color: #111;
+  font-size: 17px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 90%;
+  left: 15%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.kurta {
+  width: 250px;
+  height: 300px;
+  background: lightblue;
+  position: absolute;
+  top: 56%;
+  left: 34%;
+  margin: 10px;
+  transition: background 4s 1s;
+}
+
+.kurta::before {
+  content: " ";
+  width: 200px;
+  height: 250px;
+  background: url("./kurta.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 4%;
+  left: 8%;
+  margin: 5px;
+}
+
+.kurta1 {
+  color: #111;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 90%;
+  left: 38%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.western {
+  width: 250px;
+  height: 300px;
+  background: lightblue;
+  position: absolute;
+  top: 56%;
+  left: 52%;
+  margin: 10px;
+  transition: background 4s 1s;
+}
+
+.western::before {
+  content: " ";
+  width: 200px;
+  height: 250px;
+  background: url("./dress.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 4%;
+  left: 8%;
+  margin: 5px;
+}
+
+.western1 {
+  color: #111;
+  font-size: 17px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 90%;
+  left: 21%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heels {
+  width: 250px;
+  height: 300px;
+  background: lightblue;
+  position: absolute;
+  top: 56%;
+  left: 70%;
+  margin: 10px;
+  transition: background 4s 1s;
+}
+
+.heels::before {
+  content: " ";
+  width: 200px;
+  height: 250px;
+  background: url("./heels.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 4%;
+  left: 8%;
+  margin: 5px;
+}
+
+.heels1 {
+  color: #111;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 90%;
+  left: 38%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tshirt:hover {
+  background: red;
+}
+
+.Jeans:hover {
+  background: red;
+}
+
+.shoes:hover {
+  background: red;
+}
+
+.kurta:hover {
+  background: red;
+}
+
+.traditional:hover {
+  background: red;
+}
+
+.heels:hover {
+  background: red;
+}
+
+.western:hover {
+  background: red;
+}
+
+h2 {
+  text-decoration: underline;
+  position: absolute;
+  top: 11%;
+  left: 12%;
+}
