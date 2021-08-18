@@ -153,8 +153,8 @@ p {
 }
 .wishlist {
   position: absolute;
-  top: 75%;
-  left: 43%;
+  top: 575px;
+  left: 645px;
   width: 275px;
   height: 30px;
   border: 3px solid blue;
